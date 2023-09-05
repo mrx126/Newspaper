@@ -1,0 +1,271 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Open Sans", sans-serif;
+  width: 90%;
+  margin: auto;
+}
+
+.news-link {
+  margin-top: 20px;
+  background-color: black;
+  color: white;
+  text-align: center;
+  width: 20%;
+  padding: 5px;
+  margin-left: 30px;
+}
+.news-link p {
+  font-size: 90%;
+  margin-left: 0px;
+  text-align: center;
+}
+.news-link p a {
+  text-decoration: none;
+  color: white;
+}
+h1 {
+  font-size: 500%;
+  font-weight: 400;
+  text-align: center;
+  margin: 0;
+  border-top: 1px solid black;
+}
+header h1 span {
+  color: teal;
+  font-family: "Roboto Slab", serif;
+  font-weight: 900;
+}
+.ad {
+  font-size: 20px;
+  text-align: center;
+  letter-spacing: 2px;
+  margin-top: 0;
+  text-transform: uppercase;
+  font-style: italic;
+  background-color: black;
+  color: white;
+  width: 85%;
+  margin: auto;
+}
+
+.date {
+  float: left;
+  font-weight: 500;
+  margin-top: 10px;
+  font-size: 20px;
+}
+.edition {
+  float: right;
+  font-weight: 500;
+  margin-top: 10px;
+  font-size: 20px;
+}
+.hr2 {
+  margin-top: 40px;
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid black;
+  padding: 0;
+}
+
+/* mmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm */
+.isi {
+  display: flex;
+}
+p {
+  text-align: justify;
+}
+
+.kiri {
+  width: 20%;
+  padding-right: 10px;
+}
+.kanan {
+  padding-left: 10px;
+  padding-bottom: 20px;
+  border-left: 1px solid black;
+  width: 80%;
+}
+.image-2 {
+  grid-area: image-1;
+  height: 300px;
+  width: 300px;
+  background-image: url(img/1.jpg);
+  background-size: cover;
+  float: left;
+  margin-right: 20px;
+  margin-left: 0px;
+  margin-top: 7px;
+  margin-bottom: 7px;
+}
+.image-1 {
+  grid-area: image-1;
+  height: 300px;
+  width: 500px;
+  background-image: url(img/2.jpg);
+  background-size: cover;
+  float: left;
+  margin-right: 20px;
+  margin-left: 0px;
+  margin-top: 7px;
+  margin-bottom: 7%;
+}
+
+.hr3 {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid black;
+  padding: 0;
+}
+.page-no {
+  background-color: black;
+  color: white;
+  text-align: center;
+  width: 5%;
+  padding: 3px;
+  margin-left: 100%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.sumber .image-2 {
+  margin-bottom: 7%;
+  font-size: small;
+}
+.sumber p {
+  margin-top: 104%;
+}
+.sumber .image-2 p span {
+  margin-top: 0px;
+  font-style: italic;
+}
+
+.sumber-1 .image-1 p {
+  margin-top: 65%;
+  font-size: small;
+}
+.sumber-1 .image-1 p span {
+  font-style: italic;
+}
+
+/* Ukuran layar mobile phone minimal resolusi 576px */
+@media (max-width: 576px) {
+  .isi {
+    display: block;
+    margin-right: -80px;
+  }
+  .kiri {
+    width: 90%;
+    padding-right: 10px;
+  }
+  .kanan {
+    padding-left: none;
+    padding-bottom: none;
+    border-left: none;
+    border-top: 1px solid black;
+    border-bottom: 2px solid black;
+    margin-top: 30px;
+    margin-left: -10px;
+    margin-bottom: 30px;
+    width: 90%;
+  }
+  h1 {
+    font-size: 200%;
+    font-weight: 400;
+    text-align: center;
+    margin: 0;
+    border-top: 1px solid black;
+  }
+  .news-link p {
+    font-size: 45%;
+    margin-left: -2px;
+    text-align: center;
+  }
+  body {
+    width: 90%;
+    margin-right: -15px;
+  }
+  .ad {
+    font-size: 8px;
+    margin-right: 10px;
+  }
+  .date {
+    font-size: 10px;
+  }
+  .edition {
+    font-size: 10px;
+  }
+  .image-2 {
+    height: 200px;
+    width: 200px;
+  }
+  .image-1 {
+    height: 150px;
+    width: 275px;
+    background-size: cover;
+  }
+  .header {
+    margin: 50%;
+  }
+  .hr3 {
+    display: block;
+    height: none;
+    border: none;
+    border-top: none;
+    padding: none;
+  }
+  .page-no {
+    padding: 3px;
+    margin-left: 113%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  .isi {
+    display: block;
+    margin-right: -55px;
+  }
+}
+
+/* Ukuran layar tablet minimal resolusi 768px */
+@media (max-width: 710px) {
+  .image-1 {
+    height: 250px;
+    width: 400px;
+  }
+}
+@media (max-width: 417px) {
+  .image-1 {
+    height: 190px;
+    width: 280px;
+  }
+  .sumber-1 .image-1 p {
+    margin-top: 70%;
+  }
+}
+@media (max-width: 910px) {
+  .sumber .image-2 {
+    margin-bottom: 10%;
+    font-size: 10px;
+  }
+  .sumber-1 .image-1 p {
+    font-size: 10px;
+  }
+  .image-1 {
+    margin-bottom: 13%;
+  }
+}
+@media (max-width: 356px) {
+  .sumber .image-2 {
+    margin-bottom: 70px;
+  }
+  .image-1 {
+    margin-bottom: 20%;
+  }
+}
+/* Ukuran layar sangat besar minimal resolusi 1400px */
+/* @media (min-width: 1400px) { p{ font-size: 20pt; } } */
