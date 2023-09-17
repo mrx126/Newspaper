@@ -91,6 +91,7 @@ p {
   border-left: 1px solid black;
   width: 80%;
 }
+
 .image-2 {
   grid-area: image-1;
   height: 300px;
