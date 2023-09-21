@@ -141,9 +141,18 @@ p {
 .sumber p {
   margin-top: 104%;
 }
+.sumber-1 p .tebal,
+.sumber p .tebal {
+  font-weight: bold;
+}
 .sumber .image-2 p span {
   margin-top: 0px;
   font-style: italic;
+}
+
+.sumber .image-2 p span a {
+  text-decoration: none;
+  color: black;
 }
 
 .sumber-1 .image-1 p {
