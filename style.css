@@ -7,7 +7,7 @@ body {
   font-family: "Open Sans", sans-serif;
   width: 90%;
   margin: auto;
-  background-color: #e5e5e5;
+  background-color: white;
 }
 
 .news-link {
@@ -36,7 +36,7 @@ h1 {
   border-top: 1px solid black;
 }
 header h1 span {
-  color: teal;
+  color: rgba(77, 228, 255);
   font-family: "Roboto Slab", serif;
   font-weight: 900;
 }
@@ -124,7 +124,7 @@ p {
   padding: 0;
 }
 .page-no {
-  background-color: black;
+  background-color: rgba(77, 228, 255);
   color: white;
   text-align: center;
   width: 5%;
